@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 650px;
+    display: flex;
+}
+
+.left {
+    position: absolute;
+    width: 756px;
+    height: 650px;
+    left: -24px;
+    top: 0;
+}
+
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    position: absolute;
+    left: 1169px;
+    top: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav ul li a {
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    font-family: 'IRANSansX', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.nav ul li i {
+    width: 24px;
+    height: 24px;
+    top: 22px;
+    left: 1253px;
+    color: #024C80
+
+}
+
+.logo img {
+    position: absolute;
+    width: 280px;
+    height: 84px;
+    left: 856px;
+    top: 81px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login, .register {
+    text-align: center;
+}
+
+.login a, .register a {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    color: #024C80;
+    font-size: 18.75px;
+    line-height: 28px;
+}
+
+.login {
+    position: absolute;
+    width: 172px;
+    height: 28px;
+    top: 204px;
+    left: 1005px;
+    font-weight: 700;
+    font-size: 18.75px;
+
+}
+
+.register {
+    position: absolute;
+    width: 155px;
+    height: 28px;
+    left: 833px;
+    top: 204px;
+    font-weight: 400;
+}
+
+input::placeholder {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 197.5%;
+    text-align: right;
+    color: #49454F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+hr {
+    position: absolute;
+    width: 351px;
+    height: 0;
+    right: 255px;
+    top: 247px;
+    border: 1px solid rgba(2, 76, 128, 0.7);
+    transform: rotate(180deg);
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+#national {
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    width: 352px;
+    height: 48px;
+    left: 826px;
+    top: 293px;
+    padding: 10px 24px;
+    border-radius: 10px;
+
+}
+
+#l-password {
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    width: 165px;
+    height: 48px;
+    left: 1014px;
+    top: 376px;
+    padding: 10px 24px;
+}
+
+.l-password .circle {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 985px;
+    top: 388px;
+}
+
+.circle i {
+    color: #024C80;
+}
+
+.l-password img {
+    position: absolute;
+    width: 154px;
+    height: 48px;
+    left: 826px;
+    top: 376px;
+    border-radius: 10px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 82px;
+    gap: 10px;
+}
+
+.submit .btn-submit {
+    position: absolute;
+    width: 353px;
+    height: 48px;
+    left: 826px;
+    top: 475px;
+    border: none;
+    background: #024C80;
+    border-radius: 10px;
+
+}
+
+.btn-submit span {
+    width: 33px;
+    height: 28px;
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
