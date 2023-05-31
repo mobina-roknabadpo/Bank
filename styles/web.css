@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+body {
+    position: relative;
+    /*width: 1440px;*/
+    /*height: 2296px;*/
+    /*background-color: #F95500;*/
+    background: #FFFFFF;
+}
+.container{
+    width: 1440px;
+    height: 2296px;
+    margin: auto;
+}
+header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.lists .list-item a {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #024C80;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login .submit{
+    border: none;
+    width: 160px;
+    height: 48px;
+    border-radius: 30px;background: linear-gradient(270deg, #21409A 31.91%, #CE1878 100%);
+    color: #FFFFFF;
+    padding: 8px 44px;
+
+}
+
+.login .submit span{
+    width: 28px;
+    height: 26px;
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.login .submit i{
+    width: 32px;
+}
+
+.titr{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+
+.titr .title{
+    width: 544px;
+    height: 360px;
+}
+
+.titr .title h2{
+    width: 126px;
+    height: 53px;
+}
+
+.titr .title p{
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+
+    text-align: justify;
+
+    color: #666666;
+}
+
+.pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.pic img{
+    width: 472px;
+    height: 456px;
+}
+
+.pic .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.pic .btn button{
+    width: 164px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+}
+.pic .btn button:nth-child(1){
+    background: linear-gradient(270deg, #21409A 31.91%, #CE1878 100%);
+}
+
+.pic .btn button:nth-child(2){
+    background: linear-gradient(270deg, #FF8601 31.91%, #FE1D00 100%);
+}
+
+.pic .btn button span{
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+
+.system{
+    padding: 0 5.5rem;
+}
+
+.system .title-system h2, .titr .title h2{
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 53px;
+    /* identical to box height */
+
+    text-align: right;
+    color: #F95500;
+}
+
+/*.system .title-system{*/
+/*    width: 100%;*/
+/*    height: 200px;*/
+/*    margin: auto;*/
+/*}*/
+
+.system .title-system h2{
+    width: 347px;
+    height: 53px;
+}
+
+.system .title-system p{
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+
+    text-align: justify;
+
+    color: #666666;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(114, 210, 210);
+}
