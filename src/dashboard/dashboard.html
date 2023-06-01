@@ -5,9 +5,189 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../styles/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Dashboard</title>
 </head>
 <body>
-
+<div class="container">
+    <div class="sidebar">
+        <div class="profile">
+            <img src="../../images/dashboard/57.png" alt="profile">
+            <div class="name">
+                <h3>نام کاربری</h3>
+                <h4>نام و نام خانوادگی</h4>
+            </div>
+        </div>
+        <hr style="border: 1px solid rgba(2, 76, 128, 0.7); width: 209px;margin: 25px 0 20px 0">
+        <div class="lists1">
+            <ul>
+                <li class="list-item"><a href="#"><i class="fa-solid fa-border-all"></i>داشبورد</a></li>
+                <li class="list-item"><a href="#"><i class="fa-solid fa-user-check"></i>جذب داخلی</a></li>
+                <li class="list-item active"><a href="#"><i class="fa-solid fa-user-check"></i>جذب خارجی</a></li>
+                <li class="list-item"><a href="#"><i class="fa-solid fa-file-lines"></i>رزومه</a></li>
+                <li class="list-item"><a href="#"><i class="fa-solid fa-note-sticky"></i>اطلاعات پایه</a></li>
+                <li class="list-item"><a href="#"><i class="fa-solid fa-envelope-circle-check"></i>پیامک</a></li>
+            </ul>
+        </div>
+        <div class="empty"></div>
+        <hr style="border: 1px solid rgba(2, 76, 128, 0.7); width: 209px;margin: 25px 0 20px 0">
+        <div class="lists2">
+            <ul>
+                <li class="list-item"><a href="#"><i class="fa-solid fa-gear"></i>تنظیمات</a></li>
+                <li class="list-item"><a href="#"><i class="fa-solid fa-right-from-bracket"></i>خروج</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main">
+            <div class="title">
+                <span>شروط جذب کارشناس زیر ساخت 1402</span>
+            </div>
+            <div class="btn-property">
+                <div class="property"><span> آزمون</span></div>
+                <div class="property"><span> کانون</span></div>
+                <div class="property"><span> مصاحبه</span></div>
+                <div class="property"><span>ارزیابی نهایی</span></div>
+            </div>
+            <div class="exam">
+                <div class="define">
+                    <span>
+                        تعریف آزمون
+                    </span>
+                </div>
+                <div class="result">
+                    <span>
+                        نتایج آزمون
+                    </span>
+                </div>
+            </div>
+            <div class="file">
+                <div class="text">
+                    <span>
+                        جهت بارگزاری نتایج آزمون از فایل نمونه استفاده نمایید.
+                    </span>
+                </div>
+                <div class="choose-file">
+                    <div class="receive">
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                       <button>
+                           دریافت فایل نمونه
+                       </button>
+                    </div>
+                    <div class="upload">
+                        <i class="fa-solid fa-file-circle-plus"></i>
+                        <button>
+                            بارگزای فایل
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="check">
+                <div>
+                    <input type="checkbox" id="exam" name="interest" value="exam" />
+                    <label for="exam">نمایش نتیجه نهایی آزمون به متقاضی</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="wordBook" name="interest" value="music" />
+                    <label for="wordBook">نمایش نتیجه نهایی آزمون و کارنامه به متقاضی</label>
+                </div>
+            </div>
+            <div class="table">
+                <h2>لیست نتایج آزمون</h2>
+                <table>
+                    <tr>
+                        <th>ردیف</th>
+                        <th>کدملی</th>
+                        <th>نام و نام خانوادگی</th>
+                        <th>شماره پرونده</th>
+                        <th>وضعیت</th>
+                        <th>کارنامه</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>0023456789</td>
+                        <td>علی کوشکی</td>
+                        <td>2345760</td>
+                        <td>قبول</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>0013456789</td>
+                        <td>زهرا دادفر</td>
+                        <td>2345750</td>
+                        <td>رد</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>0014956789</td>
+                        <td>آریان اکبری</td>
+                        <td>2345740</td>
+                        <td>غیبت</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>0014926789</td>
+                        <td>آهو اصلانی</td>
+                        <td>2345730</td>
+                        <td>قبول</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>0014326789</td>
+                        <td>بهراد بابایی</td>
+                        <td>2345720</td>
+                        <td>قبول</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>0014306789</td>
+                        <td>پریسان بقایی</td>
+                        <td>2345720</td>
+                        <td>غیبت</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>0012306789</td>
+                        <td>ترانه تبریزی</td>
+                        <td>2349020</td>
+                        <td>قبول</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>0014226789</td>
+                        <td>حامی جهانگیری</td>
+                        <td>2300020</td>
+                        <td>قبول</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>0014266789</td>
+                        <td>دیان رادبخش</td>
+                        <td>2300010</td>
+                        <td>قبول</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>0010066789</td>
+                        <td>راحیل زمانی</td>
+                        <td>2300000</td>
+                        <td>قبول</td>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
