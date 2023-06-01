@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 98%;
+    height: 1496px;
+    margin: auto;
+    display: flex;
+}
+
+.sidebar {
+    width: 249px;
+    height: 1441px;
+    /* آبی داشبورد-بکگراند */
+    background: #F8F8FA;
+    border-radius: 27px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-top: 40px;
+}
+
+.profile img {
+    width: 54.82px;
+    height: 54.82px;
+    box-shadow: 106.429px 121.248px 120.238px -44.4577px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name h3 {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #024C80;
+}
+
+.name h4 {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* gray-3 */
+
+    color: #979797;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lists1 ul {
+    list-style: none;
+}
+
+.lists1 ul .list-item, .lists2 ul .list-item {
+    width: 209px;
+    height: 59px;
+    margin-bottom: .2rem;
+}
+
+.empty {
+    height: 600px;
+}
+
+.lists2 ul {
+    list-style: none;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+a:visited{
+    color: #024C80;
+}
+
+.list-item {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 28px;
+    text-align: right;
+    color: #024C80;
+}
+
+
+.lists1 ul li:nth-child(3) {
+    border-right: 4px solid #fff;
+    background: #CE1878;
+    border-radius: 10px;
+}
+
+.active a {
+    color: #FFFFFF;
+}
+
+.list-item i {
+    margin: 0 16px;
+}
+
+.content {
+    width: 1190px;
+    height: 1496px;
+    position: relative;
+    right: 30px;
+}
+
+.main {
+    width: 95%;
+    margin: 5.5rem auto;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #979797;
+}
+
+td {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 31px;
+    color: #49454F;
+}
+
+th, td {
+    padding: 16px;
+    text-align: right;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+tr:nth-child(12) {
+    border: none;
+}
+
+td:nth-child(1) {
+    width: 80px;
+
+}
+
+td:nth-child(4) {
+    width: 250px;
+}
+
+td:nth-child(6) {
+    width: 80px;
+}
+
+.title span {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: right;
+    color: #024C80;
+}
+
+.btn-property {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin: 49px 0 63px 0;
+}
+
+.btn-property .property {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 158px;
+    height: 52px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #CE1878;
+    cursor: pointer;
+}
+
+.btn-property .property span {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 28px;
+    color: #CE1878;
+}
+
+
+.btn-property .property:hover {
+    background: #CE1878;
+}
+
+.btn-property .property:hover span {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.exam {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 420px;
+    height: 40px;
+    border-bottom: 1px solid rgba(2, 76, 128, 0.7);
+}
+
+.exam .define, .exam .result {
+    width: 210px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exam .define span, .exam .result span {
+    font-family: 'IRAN Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #024C80;
+}
+
+.exam .define:hover, .exam .result:hover {
+    border-bottom: 3px solid #024C80;
+
+}
+
+.exam .define span:hover, .exam .result:hover span {
+    font-weight: 700;
+}
+
+.file {
+    margin: 56px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choose-file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.receive button, .upload button {
+    border: none;
+    background: none;
+}
+
+.receive button {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 28px;
+    text-align: right;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.receive i {
+    color: #FFFFFF;
+}
+
+.upload i {
+    color: #024C80;
+}
+
+.upload button {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 28px;
+    text-align: right;
+    color: #024C80;
+    cursor: pointer;
+}
+
+.receive, .upload {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.receive {
+    width: 315px;
+    height: 58px;
+    background: linear-gradient(270deg, #21409A 31.91%, #CE1878 100%);
+    border-radius: 90px;
+}
+
+.upload {
+    width: 198px;
+    height: 58px;
+    background: #F8F8FA;
+    border-radius: 10px;
+}
+
+.text span {
+    font-family: 'IRAN Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 24px;
+    text-align: right;
+    color: #024C80;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    margin-bottom: 36px;
+}
+
+.check label {
+    font-family: 'IRAN Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #49454F;
+    cursor: pointer;
+}
+
+.table h2 {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: right;
+    color: #024C80;
+    margin-bottom: 30px;
+}
+
+tr:last-child > td {
+    border-bottom: 0;
+}
+
+td > i {
+    color: #21409A;
+}
