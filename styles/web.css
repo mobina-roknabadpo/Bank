@@ -11,12 +11,14 @@ body {
     /*height: 2296px;*/
     /*background-color: #F95500;*/
     background: #FFFFFF;
+    /*background: url("../images/web/Shape 595 1.png") center no-repeat;*/
 }
-.container{
+
+.container {
     width: 1440px;
-    height: 2296px;
     margin: auto;
 }
+
 header {
     width: 100%;
 }
@@ -48,24 +50,25 @@ a {
     color: #024C80;
 }
 
-.login{
+.login {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.login .submit{
+.login .submit {
     border: none;
     width: 160px;
     height: 48px;
-    border-radius: 30px;background: linear-gradient(270deg, #21409A 31.91%, #CE1878 100%);
+    border-radius: 30px;
+    background: linear-gradient(270deg, #21409A 31.91%, #CE1878 100%);
     color: #FFFFFF;
     padding: 8px 44px;
 
 }
 
-.login .submit span{
+.login .submit span {
     width: 28px;
     height: 26px;
     font-family: 'IRANSansWeb(FaNum)';
@@ -75,11 +78,11 @@ a {
     line-height: 26px;
 }
 
-.login .submit i{
+.login .submit i {
     width: 32px;
 }
 
-.titr{
+.titr {
     display: flex;
     align-items: center;
     width: 100%;
@@ -87,17 +90,17 @@ a {
     margin: 5rem 0;
 }
 
-.titr .title{
+.titr .title {
     width: 544px;
     height: 360px;
 }
 
-.titr .title h2{
+.titr .title h2 {
     width: 126px;
     height: 53px;
 }
 
-.titr .title p{
+.titr .title p {
     font-family: 'IRANSansWeb(FaNum)';
     font-style: normal;
     font-weight: 400;
@@ -110,56 +113,23 @@ a {
     color: #666666;
 }
 
-.pic{
+.pic {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 45px;
 }
 
-.pic img{
+.pic img {
     width: 472px;
     height: 456px;
 }
 
-.pic .btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 27px;
-}
-
-.pic .btn button{
-    width: 164px;
-    height: 48px;
-    border-radius: 30px;
-    border: none;
-}
-.pic .btn button:nth-child(1){
-    background: linear-gradient(270deg, #21409A 31.91%, #CE1878 100%);
-}
-
-.pic .btn button:nth-child(2){
-    background: linear-gradient(270deg, #FF8601 31.91%, #FE1D00 100%);
-}
-
-.pic .btn button span{
-    font-family: 'IRANSansWeb(FaNum)';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-
-    color: #FFFFFF;
-}
-
-
-.system{
+.system {
     padding: 0 5.5rem;
 }
 
-.system .title-system h2, .titr .title h2{
+.system .title-system h2, .titr .title h2 {
     font-family: 'IRANSansWeb(FaNum)';
     font-style: normal;
     font-weight: 400;
@@ -171,18 +141,13 @@ a {
     color: #F95500;
 }
 
-/*.system .title-system{*/
-/*    width: 100%;*/
-/*    height: 200px;*/
-/*    margin: auto;*/
-/*}*/
 
-.system .title-system h2{
+.system .title-system h2 {
     width: 347px;
     height: 53px;
 }
 
-.system .title-system p{
+.system .title-system p {
     font-family: 'IRANSansWeb(FaNum)';
     font-style: normal;
     font-weight: 400;
@@ -194,9 +159,285 @@ a {
 
     color: #666666;
 }
-.content{
+
+.content {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(114, 210, 210);
+
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 29px;
+
+
+}
+
+.col {
+    width: 258px;
+    height: 61px;
+    left: 1014px;
+    top: 1131px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(13, 130, 232, 0.16);
+    border-radius: 30px;
+}
+
+.btn-system {
+    margin: 3rem 0;
+}
+
+.col div {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 35px;
+    background-color: #ECF2F8;
+    margin-left: 16px;
+    border-radius: 100%;
+}
+
+.col i {
+    margin-right: 8px;
+    color: #024C80;
+}
+
+.col span {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: -0.025em;
+
+    color: #024C80;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("../images/web/Shape 595 1.png") no-repeat;
+    height: 752px;
+    margin: 58px 0 8px 0;
+}
+
+.title-form {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.title-form h2 {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 53px;
+    color: #F95500;
+    margin-bottom: 26px;
+}
+
+.title-form h3 {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #024C80;
+}
+
+.btn-jazb {
+    margin: 57px 0 26px 0;
+}
+
+.pic .btn, .btn-jazb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.pic .btn button, .btn-jazb button {
+    height: 48px;
+    border: none;
+}
+
+.pic .btn button:nth-child(1), .btn-jazb button:nth-child(1) {
+    width: 164px;
+    border-radius: 30px;
+    background: linear-gradient(270deg, #21409A 31.91%, #CE1878 100%);
+}
+
+.pic .btn button:nth-child(2), .btn-jazb button:nth-child(2) {
+    width: 170px;
+    border-radius: 55px;
+    background: linear-gradient(270deg, #FF8601 31.91%, #FE1D00 100%);
+}
+
+.pic .btn button span, .btn-jazb button span {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.image {
+    position: relative;
+    width: 363px;
+    height: 438px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(283.1deg, #000428 9.04%, #004E92 80.06%);
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 41px;
+}
+
+.contact img{
+    height: 84px;
+    width: 280px;
+    border: 2px solid green;
+    margin-left: 13px;
+
+}
+
+.cont-foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.f-row1, .f-row2 {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    flex-wrap: wrap;
+}
+
+.f-col {
+    width: 235px;
+    height: 26px;
+}
+
+.f-col span {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 14px 4rem;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-media {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+.social-media div{
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    position: relative;
+}
+
+.instagram{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 27%;
+    right: 26%;
+}
+
+.comment{
+    width: 21px;
+    height: 22px;
+    position: absolute;
+    top: 23%;
+    right: 25%;
+}
+
+.video{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+
+.linkedin{
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    top: 17%;
+    right: 23%;
+}
+
+.youtube{
+    width: 22px;
+    height: 18px;
+    position: absolute;
+    top: 27%;
+    right: 22%;
+}
+
+.copy p {
+    font-family: 'IRANSansWeb(FaNum)';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+hr{
+    color: rgba(255, 255, 255, 0.2);;
 }
