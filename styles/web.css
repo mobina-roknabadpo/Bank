@@ -7,15 +7,11 @@
 
 body {
     position: relative;
-    /*width: 1440px;*/
-    /*height: 2296px;*/
-    /*background-color: #F95500;*/
     background: #FFFFFF;
-    /*background: url("../images/web/Shape 595 1.png") center no-repeat;*/
 }
 
 .container {
-    width: 1440px;
+    width: 100%;
     margin: auto;
 }
 
@@ -25,8 +21,9 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 5.5rem;
 }
 
 a {
@@ -86,8 +83,9 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 5rem 0;
+    padding: 0 5.5rem;
 }
 
 .titr .title {
@@ -127,6 +125,10 @@ a {
 
 .system {
     padding: 0 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .system .title-system h2, .titr .title h2 {
@@ -172,6 +174,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 29px;
+    flex-wrap: wrap;
 
 
 }
@@ -192,6 +195,9 @@ a {
 
 .btn-system {
     margin: 3rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .col div {
@@ -228,6 +234,7 @@ a {
     flex-direction: column;
     background: url("../images/web/Shape 595 1.png") no-repeat;
     height: 752px;
+    background-size: 100%;
     margin: 58px 0 8px 0;
 }
 
@@ -361,7 +368,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 14px 4rem;
+    margin: 14px 5rem;
 }
 
 .copy {
