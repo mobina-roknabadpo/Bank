@@ -10,6 +10,36 @@
     <title>Dashboard</title>
 </head>
 <body>
+<div class="upload-file">
+    <div class="box">
+        <div class="name">
+            <span>بارگزاری فایل</span>
+        </div>
+        <div class="box-file">
+            <div class="select-file">
+                <img src="../../images/dashboard/file%20upload.png" alt="" width="64" height="64">
+                <span>تنها فرمت‌های استاندارد فایل متنی .CSV و اکسل مجاز می باشد.</span>
+                <div class="btn-select">
+                    <input id='fileid' type='file' hidden/>
+                    <input id='buttonid' type='button' value='انتخاب فایل'/>
+                </div>
+            </div>
+            <div class="progress">
+                <span>15% درصد</span>
+                <div id="progress-bar">
+                    <i class="fa-solid fa-file-lines" id="file"></i>
+                    <div class="bar"></div>
+                    <i class="fa-solid fa-circle-xmark" id="circle"></i>
+                </div>
+            </div>
+            <div class="sub">
+                <button class="dissuasion">انصراف</button>
+                <button class="registration">ثبت</button>
+            </div>
+        </div>
+    </div>
+
+</div>
 <div class="container">
     <div class="sidebar">
         <div class="profile">
@@ -71,9 +101,9 @@
                 <div class="choose-file">
                     <div class="receive">
                         <i class="fa-solid fa-file-arrow-down"></i>
-                       <button>
-                           دریافت فایل نمونه
-                       </button>
+                        <button>
+                            دریافت فایل نمونه
+                        </button>
                     </div>
                     <div class="upload">
                         <i class="fa-solid fa-file-circle-plus"></i>
@@ -85,11 +115,11 @@
             </div>
             <div class="check">
                 <div>
-                    <input type="checkbox" id="exam" name="interest" value="exam" />
+                    <input type="checkbox" id="exam" name="interest" value="exam"/>
                     <label for="exam">نمایش نتیجه نهایی آزمون به متقاضی</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="wordBook" name="interest" value="music" />
+                    <input type="checkbox" id="wordBook" name="interest" value="music"/>
                     <label for="wordBook">نمایش نتیجه نهایی آزمون و کارنامه به متقاضی</label>
                 </div>
             </div>
@@ -189,5 +219,6 @@
         </div>
     </div>
 </div>
+<script src="../../app.js"></script>
 </body>
 </html>
