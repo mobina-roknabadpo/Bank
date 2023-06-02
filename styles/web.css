@@ -23,7 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5.5rem;
+    width: 90%;
+    margin: auto;
 }
 
 a {
@@ -33,9 +34,9 @@ a {
 .lists {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .lists .list-item a {
@@ -61,7 +62,6 @@ a {
     border-radius: 30px;
     background: linear-gradient(270deg, #21409A 31.91%, #CE1878 100%);
     color: #FFFFFF;
-    padding: 8px 44px;
 
 }
 
