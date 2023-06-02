@@ -104,7 +104,7 @@ a:visited {
     color: #024C80;
 }
 
-.list-item {
+.list-item a{
     font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
@@ -268,7 +268,7 @@ td:nth-child(6) {
 
 }
 
-.exam .define span:hover, .exam .result:hover span {
+.exam .define:hover span, .exam .result:hover span {
     font-weight: 700;
 }
 
@@ -429,7 +429,7 @@ td > i {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 65px;
     margin: 3rem auto;
 }
 
@@ -449,7 +449,6 @@ td > i {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 21px;
     text-align: right;
     color: #49454F;
 }
@@ -464,7 +463,6 @@ td > i {
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
-    line-height: 31px;
     text-align: center;
     cursor: pointer;
     color: #FFFFFF;

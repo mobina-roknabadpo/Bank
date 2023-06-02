@@ -9,217 +9,182 @@ body {
     background-color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
+    width: 100%;
+}
+
+.main {
     position: relative;
-    width: 1440px;
-    height: 650px;
     display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
 }
 
 .left {
-    position: absolute;
     width: 756px;
     height: 650px;
-    left: -24px;
-    top: 0;
 }
 
+.right {
+    width: calc(100% - 756px);
+    padding: 3rem 5rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 33px 0;
+}
+
+.content .title {
+    width: 352px;
+    height: 40px;
+    border-bottom: 1px solid rgba(2, 76, 128, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 39px 0 46px 0;
+}
+
+.title .login, .title .register {
+    width: 176px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active{
+    border-bottom: 2px solid #024C80;
+}
+
+.active a{
+    font-weight: 700;
+}
+
+.title .login a, .title .register a {
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.75px;
+    line-height: 28px;
+    text-align: center;
+    color: #024C80;
+}
+
+.title .login:hover, .title .register:hover {
+    border-bottom: 2px solid #024C80;
+}
+
+.title .login:hover a, .title .register:hover a {
+    font-weight: 700;
+}
 
 .nav ul {
     list-style: none;
 }
 
-.nav ul li {
-    position: absolute;
-    left: 1169px;
-    top: 24px;
-}
 
-a {
-    text-decoration: none;
+.nav ul li {
+    display: flex;
+    gap: 9px;
 }
 
 .nav ul li a {
-    width: 80px;
-    height: 24px;
-    text-align: center;
-    font-family: 'IRANSansX', serif;
+    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    text-align: center;
     color: #000000;
 }
 
 .nav ul li i {
     width: 24px;
     height: 24px;
-    top: 22px;
-    left: 1253px;
     color: #024C80
 
 }
 
-.logo img {
-    position: absolute;
+.content .logo img {
     width: 280px;
     height: 84px;
-    left: 856px;
-    top: 81px;
 }
 
-.title {
+form {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.login, .register {
-    text-align: center;
-}
-
-.login a, .register a {
-    font-family: 'IRANSansX';
-    font-style: normal;
-    color: #024C80;
-    font-size: 18.75px;
-    line-height: 28px;
-}
-
-.login {
-    position: absolute;
-    width: 172px;
-    height: 28px;
-    top: 204px;
-    left: 1005px;
-    font-weight: 700;
-    font-size: 18.75px;
-
-}
-
-.register {
-    position: absolute;
-    width: 155px;
-    height: 28px;
-    left: 833px;
-    top: 204px;
-    font-weight: 400;
-}
-
-input::placeholder {
-    font-family: 'IRANSansWeb(FaNum)';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 197.5%;
-    text-align: right;
-    color: #49454F;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-hr {
-    position: absolute;
-    width: 351px;
-    height: 0;
-    right: 255px;
-    top: 247px;
-    border: 1px solid rgba(2, 76, 128, 0.7);
-    transform: rotate(180deg);
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 35px;
 }
 
 .form-input {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
-    gap: 10px;
 }
 
-#national {
-    position: absolute;
+.l-password {
+    gap: 5px;
+}
+
+#national, #l-password, #phone{
     background: #FFFFFF;
     border: 1px solid #979797;
+    border-radius: 10px;
+    padding: 10px 24px;
+}
+
+#national, #phone {
     width: 352px;
     height: 48px;
-    left: 826px;
-    top: 293px;
-    padding: 10px 24px;
-    border-radius: 10px;
-
 }
 
 #l-password {
-    position: absolute;
-    background: #FFFFFF;
-    border: 1px solid #979797;
-    border-radius: 10px;
     width: 165px;
     height: 48px;
-    left: 1014px;
-    top: 376px;
-    padding: 10px 24px;
 }
 
-.l-password .circle {
-    position: absolute;
+.circle {
+    position: relative;
+    border: 2px solid #3fe03f;
     width: 24px;
     height: 24px;
-    left: 985px;
-    top: 388px;
 }
 
 .circle i {
     color: #024C80;
+    position: absolute;
+    top: 10%;
+    right: 10%;
 }
 
 .l-password img {
-    position: absolute;
     width: 154px;
     height: 48px;
-    left: 826px;
-    top: 376px;
     border-radius: 10px;
 }
 
-.submit {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 82px;
-    gap: 10px;
-}
-
-.submit .btn-submit {
-    position: absolute;
+.submit button {
     width: 353px;
     height: 48px;
-    left: 826px;
-    top: 475px;
-    border: none;
     background: #024C80;
     border-radius: 10px;
-
-}
-
-.btn-submit span {
-    width: 33px;
-    height: 28px;
+    border: none;
     font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
-    font-size: 18.75px;
-    line-height: 28px;
-    text-align: right;
+    font-size: 18px;
     color: #FFFFFF;
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
+
 
 
 
