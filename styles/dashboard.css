@@ -1,8 +1,11 @@
+@import url('https://fonts.cdnfonts.com/css/iransansx');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     direction: rtl;
+    font-family: 'IRANSansX', sans-serif;
 }
 
 body {
@@ -12,7 +15,8 @@ body {
 .container {
     background-color: #ffffff;
     width: 98%;
-    height: 1496px;
+    height: 100%;
+    max-height: 1496px;
     display: flex;
     margin: auto;
 }
@@ -49,7 +53,7 @@ body {
 }
 
 .name h3 {
-    font-family: 'IRANSansX';
+    font-family: 'IRANSansX', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -59,17 +63,12 @@ body {
 }
 
 .name h4 {
-    font-family: 'IRANSansX';
+    font-family: 'IRANSansX', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
-
     text-align: right;
-
-    /* gray-3 */
-
     color: #979797;
 }
 
@@ -104,8 +103,8 @@ a:visited {
     color: #024C80;
 }
 
-.list-item a{
-    font-family: 'IRANSansX';
+.list-item a {
+    font-family: 'IRANSansX', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -143,7 +142,7 @@ table {
 
 th {
 
-    font-family: 'IRANSansX';
+    font-family: 'IRANSansX', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -152,7 +151,7 @@ th {
 }
 
 td {
-    font-family: 'IRANSansWeb(FaNum)';
+    font-family: 'IRANSansX', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -183,8 +182,7 @@ td:nth-child(6) {
     width: 80px;
 }
 
-.title span {
-    font-family: 'IRANSansWeb(FaNum)';
+.title h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -199,6 +197,7 @@ td:nth-child(6) {
     align-items: center;
     gap: 17px;
     margin: 49px 0 63px 0;
+    flex-wrap: wrap;
 }
 
 .btn-property .property {
@@ -214,7 +213,6 @@ td:nth-child(6) {
 }
 
 .btn-property .property span {
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -228,7 +226,6 @@ td:nth-child(6) {
 }
 
 .btn-property .property:hover span {
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -254,7 +251,6 @@ td:nth-child(6) {
 }
 
 .exam .define span, .exam .result span {
-    font-family: 'IRAN Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -292,7 +288,6 @@ td:nth-child(6) {
 }
 
 .receive button {
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -311,7 +306,6 @@ td:nth-child(6) {
 }
 
 .upload button {
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -344,7 +338,6 @@ td:nth-child(6) {
 }
 
 .text span {
-    font-family: 'IRAN Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -361,7 +354,6 @@ td:nth-child(6) {
 }
 
 .check label {
-    font-family: 'IRAN Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -370,15 +362,14 @@ td:nth-child(6) {
     cursor: pointer;
 }
 
-.table h2 {
-    font-family: 'IRANSansWeb(FaNum)';
+table caption {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 36px;
     text-align: right;
     color: #024C80;
-    margin-bottom: 30px;
+    margin: 1em .6rem;
 }
 
 tr:last-child > td {
@@ -416,7 +407,6 @@ td > i {
 }
 
 .box .name span {
-    font-family: 'IRANSansWeb(FaNum)';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -445,7 +435,6 @@ td > i {
 }
 
 .select-file span {
-    font-family: 'IRANSansWeb(FaNum)';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -459,7 +448,6 @@ td > i {
     background: #CE1878;
     border-radius: 10px;
     border: none;
-    font-family: 'IRANSansWeb(FaNum)';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -480,7 +468,6 @@ td > i {
 }
 
 .progress span {
-    font-family: 'IRANSansWeb(FaNum)';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -492,14 +479,14 @@ td > i {
 #progress-bar {
     display: flex;
     align-items: center;
-    position:relative;
+    position: relative;
     width: 100%;
     right: 17%;
 }
 
-#progress-bar::before{
+#progress-bar::before {
     content: '';
-    background-color:#F0F0F0;
+    background-color: #F0F0F0;
     width: 288px;
     height: 8px;
     border-radius: 90px;
@@ -510,9 +497,9 @@ td > i {
 
 }
 
-.bar{
+.bar {
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 0;
     transition: .4s ease;
     background: #024C80;
@@ -539,7 +526,8 @@ td > i {
     align-items: center;
     gap: 22px;
 }
-.dissuasion, .registration{
+
+.dissuasion, .registration {
     border: none;
     cursor: pointer;
 
@@ -550,7 +538,6 @@ td > i {
     height: 48px;
     border: 1px solid #49454F;
     border-radius: 10px;
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -565,11 +552,120 @@ td > i {
     height: 48px;
     background: #024C80;
     border-radius: 10px;
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sidebar {
+        margin: 0;
+        justify-content: center;
+        height: 100%;
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: .5rem;
+    }
+
+    .btn-property {
+        justify-content: center;
+    }
+
+    .exam {
+        width: 90%;
+        margin: auto;
+    }
+
+    .file {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: .8rem;
+    }
+
+    .choose-file {
+        gap: 20px;
+    }
+
+    .check {
+        gap: 35px;
+        padding: .8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .file {
+        align-items: center;
+    }
+
+    .choose-file {
+        flex-direction: column;
+    }
+
+    table {
+        border: 0;
+    }
+
+    table caption {
+        text-align: center;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+    }
+
+    table tr {
+        border: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    td:nth-child(even) {
+        background-color: rgba(0, 0, 0, 0.3)
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 1em;
+        text-align: left;
+    }
+
+    table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: right;
+        font-weight: bold;
+    }
+
+    tr:last-child > td {
+        border-bottom: 1px solid #ddd;
+    }
+
+    td:nth-child(6), td:nth-child(4), td:nth-child(1) {
+        width: 100%;
+    }
 }
