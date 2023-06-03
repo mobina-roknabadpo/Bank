@@ -232,5 +232,14 @@
         </div>
     </div>
 </div>
+<script>
+    const toggle = document.querySelector('.toggle-btn');
+    const toggleBtnIcon = document.querySelector('.toggle-btn i');
+    const dropMenu = document.querySelector('.drop-menu');
+    toggle.addEventListener('click', () => {
+        dropMenu.classList.toggle('open');
+        toggleBtnIcon.classList = dropMenu.classList.contains('open') ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+    })
+</script>
 </body>
 </html>
