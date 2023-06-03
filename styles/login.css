@@ -90,10 +90,10 @@ a {
     list-style: none;
 }
 
-
 .nav ul li {
     display: flex;
     gap: 9px;
+
 }
 
 .nav ul li a {
@@ -184,6 +184,50 @@ form {
     font-size: 18px;
     color: #FFFFFF;
 }
+
+@media (max-width: 413px) {
+    .right{
+        width: 100%;
+        padding: 3rem 4rem;
+    }
+    .main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        display: none;
+    }
+
+    .content{
+        margin: 100px auto;
+    }
+
+}
+
+@media (max-width: 821px) {
+    .right{
+        width: 100%;
+        margin: auto;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .left{
+        display: none;
+    }
+
+    .content{
+        margin: 100px auto;
+        width: 100%;
+    }
+
+
+}
+
+
 
 
 
