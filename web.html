@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -12,31 +12,44 @@
 <body>
 <div class="container">
     <header>
-        <nav>
+        <nav class="navbar">
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <div class="logo">
                 <img src="./images/login/لوگو.png" alt="">
             </div>
-            <div class="navigate">
-                <ul class="lists">
-                    <li class="list-item"><a href="#">سایت بانک</a></li>
-                    <li class="list-item"><a href="#">درباره ما</a></li>
-                    <li class="list-item"><a href="#">شرایط استخدامی</a></li>
-                    <li class="list-item"><a href="#">قوانین و مقررات</a></li>
-                    <li class="list-item"><a href="#">ارتباط با ما</a></li>
-                </ul>
-            </div>
-            <div class="login">
-                <button class="submit">
-                    <i class="fa-regular fa-user"></i>
-                    <span>ورود</span>
-                </button>
+            <ul class="lists">
+                <li class="list-item"><a href="#">سایت بانک</a></li>
+                <li class="list-item"><a href="#">درباره ما</a></li>
+                <li class="list-item"><a href="#">شرایط استخدامی</a></li>
+                <li class="list-item"><a href="#">قوانین و مقررات</a></li>
+                <li class="list-item"><a href="#">ارتباط با ما</a></li>
+            </ul>
+            <div class="action-btn">
+                <i class="fa-regular fa-user"></i>
+                <a href="./src/login/login.html">ورود</a>
             </div>
         </nav>
+        <div class="drop-menu">
+            <li class="list-item"><a href="#">سایت بانک</a></li>
+            <li class="list-item"><a href="#">درباره ما</a></li>
+            <li class="list-item"><a href="#">شرایط استخدامی</a></li>
+            <li class="list-item"><a href="#">قوانین و مقررات</a></li>
+            <li class="list-item"><a href="#">ارتباط با ما</a></li>
+            <li class="list-item">
+                <div class="action-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <a href="./src/login/login.html">ورود</a>
+                </div>
+            </li>
+        </div>
     </header>
+
     <div class="content">
         <div class="titr">
             <div class="title">
-                <h2>عنوان تیتر</h2>
+                <h3>عنوان تیتر</h3>
                 <p>
                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
                     چاپگرها و
@@ -54,14 +67,10 @@
                 <img src="./images/web/pic.png" alt="">
                 <div class="btn">
                     <button>
-                    <span>
                         ارسال رزومه
-                    </span>
                     </button>
                     <button>
-                    <span>
                         ویرایش رزومه
-                    </span>
 
                     </button>
                 </div>
@@ -69,7 +78,7 @@
         </div>
         <div class="system">
             <div class="title-system">
-                <h2>سامانه استخدامی بانک رفاه</h2>
+                <h3>سامانه استخدامی بانک رفاه</h3>
                 <p>
                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
                     چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
