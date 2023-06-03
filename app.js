@@ -8,3 +8,4 @@ uploadFile.addEventListener('click', () => {
 dissuasion.addEventListener('click', () => {
     file.style.display = 'none';
 })
+
