@@ -15,6 +15,7 @@ a {
 
 .container {
     width: 100%;
+    height: 100%;
 }
 
 .main {
@@ -60,11 +61,12 @@ a {
     align-items: center;
     justify-content: center;
 }
-.active{
+
+.active {
     border-bottom: 2px solid #024C80;
 }
 
-.active a{
+.active a {
     font-weight: 700;
 }
 
@@ -135,7 +137,7 @@ form {
     gap: 5px;
 }
 
-#national, #l-password, #phone{
+#national, #l-password, #phone {
     background: #FFFFFF;
     border: 1px solid #979797;
     border-radius: 10px;
@@ -186,42 +188,78 @@ form {
 }
 
 @media (max-width: 413px) {
-    .right{
+    .right {
         width: 100%;
-        padding: 3rem 4rem;
+        padding: 2rem;
     }
-    .main{
+
+    .main {
         width: 100%;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+
     }
-    .left{
+
+    .left {
         display: none;
     }
 
-    .content{
+    .content {
         margin: 100px auto;
     }
 
 }
 
+@media (max-width: 1025px) {
+    .main {
+        width: 100%;
+    }
+
+    .left {
+        width: 10000px;
+        height: 550px;
+    }
+
+    .left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right {
+        width: 100%;
+        padding: 2rem;
+    }
+}
+
 @media (max-width: 821px) {
-    .right{
+    .right {
         width: 100%;
         margin: auto;
+        padding: 2rem;
     }
-    .main{
+
+    .main {
         width: 100%;
         height: 100%;
         flex-direction: column;
     }
-    .left{
+
+    .left {
         display: none;
     }
 
-    .content{
+    .content {
         margin: 100px auto;
         width: 100%;
+    }
+
+    .logo {
+        margin: 1rem auto;
+    }
+
+    form {
+        gap: 55px;
     }
 
 
