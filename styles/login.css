@@ -1,8 +1,11 @@
+@import url('https://fonts.cdnfonts.com/css/iransansx');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     direction: rtl;
+    font-family: 'IRANSansX', sans-serif;
 }
 
 body {
@@ -71,7 +74,6 @@ a {
 }
 
 .title .login a, .title .register a {
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 18.75px;
@@ -99,7 +101,6 @@ a {
 }
 
 .nav ul li a {
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -180,7 +181,6 @@ form {
     background: #024C80;
     border-radius: 10px;
     border: none;
-    font-family: 'IRANSansX';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
